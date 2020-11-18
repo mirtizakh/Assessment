@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    
+    <!--- Text Size -->
+    <dimen name="textSize1x">12sp</dimen>
+    <dimen name="textSize2x">16sp</dimen>
+    <dimen name="textSize3x">18sp</dimen>
+    <dimen name="textSize4x">22sp</dimen>
+    <dimen name="textSize5x">24sp</dimen>
+    <dimen name="textSize6x">26sp</dimen>
+    <dimen name="textSize7x">28sp</dimen>
+    <!--- Text Size -->
+
+    <dimen name="btn_padding">10dp</dimen>
+
+    <dimen name="top_view">200dp</dimen>
+</resources>

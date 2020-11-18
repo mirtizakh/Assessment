@@ -1,9 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.TestProject" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.TestProject" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryVariant">@color/red</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -12,5 +12,31 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+    </style>
+
+    <style name="btnStyleWhite" parent="@style/Widget.AppCompat.Button">
+        <item name="android:textSize">@dimen/textSize3x</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingTop">@dimen/btn_padding</item>
+        <item name="android:paddingBottom">@dimen/btn_padding</item>
+        <item name="android:textColor">@drawable/black_to_white_text_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:paddingLeft">80dp</item>
+        <item name="android:paddingRight">80dp</item>
+        <item name="android:background">@drawable/custom_btn_white</item>
+    </style>
+
+    <style name="editTextWhiteStyle" parent="@android:style/Widget.EditText">
+        <item name="android:textSize">@dimen/textSize3x</item>
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:layout_marginEnd">30dp</item>
+        <item name="android:background">@drawable/edit_round_background</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
     </style>
 </resources>
